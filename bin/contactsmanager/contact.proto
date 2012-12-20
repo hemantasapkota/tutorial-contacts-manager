@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package contactsmanager.proto;
+
+message PContact {
+	optional string firstName = 1;
+	optional string middleName = 2;
+	optional string lastName = 3;
+	optional string mobile = 4;
+	optional string homepage = 5;
+}
